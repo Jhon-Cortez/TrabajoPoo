@@ -1,12 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package poocorredor;
-/**
- *
- * @author LENOVO
- */
+
 public abstract class Electrodomestico {
     //un ejemplo por cada tipo de dato para el ejemplo, pero igual voy a utilizar alguunos para el trabajo
     //tambien hay ejemplos de encapsulamiento al colocar algunos en public, private y protected

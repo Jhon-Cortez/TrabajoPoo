@@ -1,13 +1,7 @@
-    /*
-    * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-    * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
-    */
+
     package poocorredor;
 
-    /**
-     *
-     * @author LENOVO
-     */
+
     public class Estufa extends Electrodomestico {
         private double peso;
         private double temperatura;
@@ -21,7 +15,7 @@
         
         public void prevencion(double temperatura){
             if (sirve == false) {
-                System.out.println("No sirve mijo");
+                System.out.println("No sirve");
             }else if (temperatura>200) {
                 encender(false);
             }else{

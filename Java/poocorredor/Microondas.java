@@ -1,20 +1,29 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package poocorredor;
 
-/**
- *
- * @author LENOVO
- */
 public class Microondas extends Electrodomestico {
-    @Override
-    public void encender(boolean encendido) {
+    private boolean sirve;
+    private String marca;
+
+    public Microondas(boolean sirve, String marca) {
+        this.sirve = sirve;
+        this.marca = marca;
     }
 
+    
+    //Metodos heredados de la clase electrodomestico que son abstractos
+    @Override
+    public void encender(boolean encendido) {
+        if (encendido==true) {
+            System.out.println("Se enciende");
+        }else{
+            System.out.println("se apaga");
+        }
+    }
     @Override
     public void funcionar() {
+        System.out.println("Funciono");
+        
     }
     
 }
