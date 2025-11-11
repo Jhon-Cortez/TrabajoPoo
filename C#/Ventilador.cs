@@ -53,7 +53,6 @@ namespace poocorredor
                 Console.WriteLine("se apaga");
             }
         }
-
         public override void funcionar()
         {
             Console.WriteLine("Funciono");
