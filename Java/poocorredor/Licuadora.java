@@ -15,10 +15,8 @@ public class Licuadora extends Electrodomestico {
         }else{
             System.out.println("Si sirve");
         }
-
-    //Metodos heredados de la clase electrodomestico que son abstractos
-
-}
+    }
+//Metodos heredados de la clase electrodomestico que son abstractos
     @Override
     public void encender(boolean encendido) {
             if (encendido==true) {
